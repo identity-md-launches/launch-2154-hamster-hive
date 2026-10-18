@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "HamsterHive",
+    "name": "Hamster Hive",
+    "symbol": "HAMSTER",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 8000,
+    "initialMarketCapWei": "1500000000000000000000",
+    "remainderTo": "0x12a7aad083cef06fef7c295514b52fc8bc81960d"
+  },
+  "notes": "HamsterHive is a fixed-supply ERC-20 named Hamster Hive (HAMSTER) with 18 decimals. Its argument-free constructor mints all 1,000,000,000 tokens once to msg.sender, the launch factory. It has no owner, additional minting, transfer fees, pause or blocklist. No application contracts or initialization calls are required. pool.initialPrice records provenance only; the deployer derives the opening price from economics.initialMarketCapWei and token.totalSupply."
+}
